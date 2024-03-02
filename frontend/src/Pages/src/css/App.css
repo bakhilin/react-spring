@@ -1,0 +1,21 @@
+.App {
+    background: black;
+    background-size: 50% 100%;
+}
+
+@media screen and (max-width: 1052){
+    .App{
+        margin: 10%;
+        padding: 15%;
+    }
+}
+
+@media screen and (max-width:774) {
+    .App {
+        margin: 0;
+        box-sizing: border-box;
+        size: 80%;
+        background: black no-repeat right fixed;
+        background-size: 100%;
+    }
+}
